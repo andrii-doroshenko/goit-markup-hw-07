@@ -169,7 +169,6 @@ body {
     letter-spacing: 0.03em;
 }
 
-
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -217,7 +216,7 @@ body {
                 border-color 250ms var(--animation);
 }
 
-/* Сховані заголовки */
+/* Сховані блоки */
 
 .visually-hidden {
     position: absolute;
@@ -254,7 +253,6 @@ body {
 }
 
 /* images */
-
 img {
     display: block;
     max-width: 100%;
@@ -266,14 +264,6 @@ img {
     justify-content: center;
     align-items: center;
     fill: var(--social-primary-color);
-}
-
-.social-icon {
-    width: 20px;
-    height: 20px;
-    fill: inherit;
-
-    transition: fill 250ms var(--animation);
 }
 
 /* logo */
@@ -739,6 +729,14 @@ img {
 .social__link:hover .social-icon,
 .social__link:focus .social-icon {
     fill: var(--text-white);
+}
+
+.social-icon {
+    width: 20px;
+    height: 20px;
+    fill: inherit;
+
+    transition: fill 250ms var(--animation);
 }
 
 /* Regular customers */
