@@ -4,15 +4,15 @@
   color: $title-text-color;
 
   &__list {
-    @extend %list-flex;
+    @include list-flex;
   }
 
   &__item:not(:last-child) {
-    @extend %item-margin;
+    @include item-margin;
   }
 
   &__link {
-    @extend %link-hover;
+    @include link-hover;
   }
 
   &__link:hover,
