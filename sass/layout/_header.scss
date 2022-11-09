@@ -12,17 +12,17 @@
   }
 
   &__list {
-    @include list-flex;
+    @extend %list-flex;
     margin-left: auto;
     font-weight: 500;
   }
 
   &__item:not(:last-child) {
-    @include item-margin;
+    @extend %item-margin;
   }
 
   &__link {
-    @include link-hover;
+    @extend %link-hover;
   }
 
   &__link:hover,

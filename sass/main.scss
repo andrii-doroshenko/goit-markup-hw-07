@@ -5,24 +5,25 @@
 @import "./utils/mixins"; // Mixins
 @import "./utils/placeholders"; // Placeholders
 
+@import "./layout/header"; // Header
+@import "./layout/navigation"; // Navigation
+@import "./layout/hero"; // Section hero
+@import "./layout/modal"; // Modal
+@import "./layout/benefits"; // Section Benefits
+@import "./layout/what-we-do"; // Section What we do
+@import "./layout/our-team"; // Section Our team
+@import "./layout/regular-customers"; // Section Regular customers
+@import "./layout/footer"; // Footer
+
 @import "./components/visually-hidden"; // Hidden blocks
 @import "./components/container"; // Container
 @import "./components/buttons"; // Buttons
-@import "./components/header"; // Header
 @import "./components/logo"; // Logo
-@import "./components/navigation"; // Navigation
-@import "./components/hero"; // Section hero
-@import "./components/modal"; // Modal
 @import "./components/forms"; // Forms
 @import "./components/custom-checkbox"; // Custom checkbox
-@import "./components/benefits"; // Section Benefits
-@import "./components/what-we-do"; // Section What we do
-@import "./components/our-team"; // Section Our team
 @import "./components/social"; // Socials
-@import "./components/regular-customers"; // Section Regular customers
 @import "./components/tabs"; // Tabs
 @import "./components/cards"; // Cards
-@import "./components/footer"; // Footer
 
 body {
   font-family: $fonts;
@@ -53,9 +54,7 @@ ul {
 }
 
 .subtitle {
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 1.16;
+  @include font-property(14px, 700, 1.16);
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: $text-white;

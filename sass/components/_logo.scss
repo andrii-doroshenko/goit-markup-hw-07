@@ -1,10 +1,7 @@
 // Main Logo
 .logo {
   font-family: $raleway;
-  color: $dark-color;
-  font-size: 26px;
-  font-weight: 700;
-  line-height: 1.2;
+  @include font-property(26px, 700, 1.2);
   text-decoration: none;
 
   &--color {
