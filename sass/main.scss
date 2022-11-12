@@ -5,16 +5,6 @@
 @import "./utils/mixins"; // Mixins
 @import "./utils/placeholders"; // Placeholders
 
-@import "./layout/header"; // Header
-@import "./layout/navigation"; // Navigation
-@import "./layout/hero"; // Section hero
-@import "./layout/modal"; // Modal
-@import "./layout/benefits"; // Section Benefits
-@import "./layout/what-we-do"; // Section What we do
-@import "./layout/our-team"; // Section Our team
-@import "./layout/regular-customers"; // Section Regular customers
-@import "./layout/footer"; // Footer
-
 @import "./components/visually-hidden"; // Hidden blocks
 @import "./components/container"; // Container
 @import "./components/buttons"; // Buttons
@@ -24,6 +14,16 @@
 @import "./components/social"; // Socials
 @import "./components/tabs"; // Tabs
 @import "./components/cards"; // Cards
+
+@import "./layout/header"; // Header
+@import "./layout/navigation"; // Navigation
+@import "./layout/hero"; // Section hero
+@import "./layout/modal"; // Modal
+@import "./layout/benefits"; // Section Benefits
+@import "./layout/what-we-do"; // Section What we do
+@import "./layout/our-team"; // Section Our team
+@import "./layout/regular-customers"; // Section Regular customers
+@import "./layout/footer"; // Footer
 
 body {
   font-family: $fonts;
